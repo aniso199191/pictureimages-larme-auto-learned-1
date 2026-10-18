@@ -1,20 +1,41 @@
 {
   "latest": {
-    "version": 0,
-    "day": 0,
-    "file": "",
-    "bytes": 0,
-    "params_total": 124568000,
-    "params_active": 119056832,
-    "knowledge_items": 0,
-    "steps": 0,
-    "loss_before": null,
-    "loss_after": null,
-    "ppl_after": null,
-    "identity_hits": "-",
-    "trained_at": "尚未开始"
+    "version": 1,
+    "day": 1,
+    "file": "larme-day001.pt",
+    "bytes": 659789331,
+    "params_total": 164937472,
+    "params_active": 164937472,
+    "knowledge_items": 600,
+    "steps": 271,
+    "loss_before": 5.982,
+    "loss_after": 5.1983,
+    "ppl_after": 181.0,
+    "identity_hits": "0/4",
+    "trained_at": "2026-10-18T23:06:14+0800"
   },
-  "history": [],
-  "identity_samples": [],
-  "storage_bytes_total": 0
+  "history": [
+    {
+      "version": 1,
+      "day": 1,
+      "file": "larme-day001.pt",
+      "bytes": 659789331,
+      "params_total": 164937472,
+      "params_active": 164937472,
+      "knowledge_items": 600,
+      "steps": 271,
+      "loss_before": 5.982,
+      "loss_after": 5.1983,
+      "ppl_after": 181.0,
+      "identity_hits": "0/4",
+      "trained_at": "2026-10-18T23:06:14+0800"
+    }
+  ],
+  "identity_samples": [
+    "你是谁 → 一款会\n m dornes Tade ae Lame 'shasesure an",
+    "你是什么模型 → 可以我是不会于：不是一些时间体为。不用此想有一个者，也是不是把数用的关键的概用。",
+    "你是怎么回答我的 → 不是否是实现上键的“我，把你们们在我最容”的。可以只不能是把每个，不是：\n2. ",
+    "你有多少参数 → 不是是一个数求。<eos>"
+  ],
+  "storage_bytes_total": 659789331
 }
