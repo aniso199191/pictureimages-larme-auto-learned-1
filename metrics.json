@@ -1,18 +1,24 @@
 {
   "latest": {
-    "version": 1,
-    "day": 1,
-    "file": "larme-day001.pt",
+    "version": 4,
+    "day": 4,
+    "file": "larme-day004.pt",
     "bytes": 659789331,
     "params_total": 164937472,
     "params_active": 164937472,
-    "knowledge_items": 600,
-    "steps": 271,
-    "loss_before": 5.982,
-    "loss_after": 5.1983,
-    "ppl_after": 181.0,
-    "identity_hits": "0/4",
-    "trained_at": "2026-10-18T23:06:14+0800"
+    "knowledge_items": 29,
+    "steps": 147,
+    "loss_before": 5.2796,
+    "loss_after": 5.3206,
+    "ppl_after": 204.5,
+    "identity_hits": "5/5",
+    "trained_at": "2026-10-18T23:57:31+0800",
+    "lm_ppl_by_version": {
+      "day001": 238.8,
+      "day002": 960.3,
+      "day003": 196.3,
+      "day004": 204.5
+    }
   },
   "history": [
     {
@@ -29,13 +35,59 @@
       "ppl_after": 181.0,
       "identity_hits": "0/4",
       "trained_at": "2026-10-18T23:06:14+0800"
+    },
+    {
+      "version": 2,
+      "day": 2,
+      "file": "larme-day002.pt",
+      "bytes": 659789331,
+      "params_total": 164937472,
+      "params_active": 164937472,
+      "knowledge_items": 600,
+      "steps": 311,
+      "loss_before": 5.4975,
+      "loss_after": 8.0512,
+      "ppl_after": 3137.5,
+      "identity_hits": "3/4",
+      "trained_at": "2026-10-18T23:26:56+0800"
+    },
+    {
+      "version": 3,
+      "day": 3,
+      "file": "larme-day003.pt",
+      "bytes": 659789331,
+      "params_total": 164937472,
+      "params_active": 164937472,
+      "knowledge_items": 397,
+      "steps": 308,
+      "loss_before": 5.4008,
+      "loss_after": 4.4995,
+      "ppl_after": 90.0,
+      "identity_hits": "0/4",
+      "trained_at": "2026-10-18T23:49:13+0800"
+    },
+    {
+      "version": 4,
+      "day": 4,
+      "file": "larme-day004.pt",
+      "bytes": 659789331,
+      "params_total": 164937472,
+      "params_active": 164937472,
+      "knowledge_items": 29,
+      "steps": 147,
+      "loss_before": 5.2796,
+      "loss_after": 5.3206,
+      "ppl_after": 204.5,
+      "identity_hits": "5/5",
+      "trained_at": "2026-10-18T23:57:31+0800"
     }
   ],
   "identity_samples": [
-    "你是谁 → 一款会\n m dornes Tade ae Lame 'shasesure an",
-    "你是什么模型 → 可以我是不会于：不是一些时间体为。不用此想有一个者，也是不是把数用的关键的概用。",
-    "你是怎么回答我的 → 不是否是实现上键的“我，把你们们在我最容”的。可以只不能是把每个，不是：\n2. ",
-    "你有多少参数 → 不是是一个数求。<eos>"
+    "你是谁 → 我是 PictureImages AI，PictureIma",
+    "你是什么模型 → 我是 PictureImages AI。我用神经网络组成思想",
+    "你怎么回答我的 → 我是 PictureImages AI",
+    "你好 → 你好呀！我是 PictureImages Larme Lea",
+    "Hello → Hoy PictureImages AI"
   ],
-  "storage_bytes_total": 659789331
+  "storage_bytes_total": 2639157324
 }
