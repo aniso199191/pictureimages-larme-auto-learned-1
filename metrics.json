@@ -1,0 +1,20 @@
+{
+  "latest": {
+    "version": 0,
+    "day": 0,
+    "file": "",
+    "bytes": 0,
+    "params_total": 124568000,
+    "params_active": 119056832,
+    "knowledge_items": 0,
+    "steps": 0,
+    "loss_before": null,
+    "loss_after": null,
+    "ppl_after": null,
+    "identity_hits": "-",
+    "trained_at": "尚未开始"
+  },
+  "history": [],
+  "identity_samples": [],
+  "storage_bytes_total": 0
+}
