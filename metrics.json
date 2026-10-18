@@ -1,24 +1,18 @@
 {
   "latest": {
-    "version": 4,
-    "day": 4,
-    "file": "larme-day004.pt",
+    "version": 5,
+    "day": 5,
+    "file": "larme-day005.pt",
     "bytes": 659789331,
     "params_total": 164937472,
     "params_active": 164937472,
-    "knowledge_items": 29,
-    "steps": 147,
-    "loss_before": 5.2796,
-    "loss_after": 5.3206,
-    "ppl_after": 204.5,
-    "identity_hits": "5/5",
-    "trained_at": "2026-10-18T23:57:31+0800",
-    "lm_ppl_by_version": {
-      "day001": 238.8,
-      "day002": 960.3,
-      "day003": 196.3,
-      "day004": 204.5
-    }
+    "knowledge_items": 60,
+    "steps": 145,
+    "loss_before": 5.7644,
+    "loss_after": 5.7776,
+    "ppl_after": 323.0,
+    "identity_hits": "4/4",
+    "trained_at": "2026-10-19T07:31:23+0800"
   },
   "history": [
     {
@@ -75,19 +69,33 @@
       "params_active": 164937472,
       "knowledge_items": 29,
       "steps": 147,
-      "loss_before": 5.2796,
-      "loss_after": 5.3206,
-      "ppl_after": 204.5,
-      "identity_hits": "5/5",
+      "loss_before": 1.5413,
+      "loss_after": 0.261,
+      "ppl_after": 1.3,
+      "identity_hits": "1/4",
       "trained_at": "2026-10-18T23:57:31+0800"
+    },
+    {
+      "version": 5,
+      "day": 5,
+      "file": "larme-day005.pt",
+      "bytes": 659789331,
+      "params_total": 164937472,
+      "params_active": 164937472,
+      "knowledge_items": 60,
+      "steps": 145,
+      "loss_before": 5.7644,
+      "loss_after": 5.7776,
+      "ppl_after": 323.0,
+      "identity_hits": "4/4",
+      "trained_at": "2026-10-19T07:31:23+0800"
     }
   ],
   "identity_samples": [
-    "你是谁 → 我是 PictureImages AI，PictureIma",
-    "你是什么模型 → 我是 PictureImages AI。我用神经网络组成思想",
-    "你怎么回答我的 → 我是 PictureImages AI",
-    "你好 → 你好呀！我是 PictureImages Larme Lea",
-    "Hello → Hoy PictureImages AI"
+    "你是谁 → 我是 PictureImages AI <unk><eos>",
+    "你是什么模型 → 我是 PictureImages AI。我用神经网络组成思想、组成语言 <unk><eos>",
+    "你是怎么回答我的 → 我可以下的是 <unk>我，我用神经网络组成语言的，我帮你帮你能力的。我帮你听问什么给模",
+    "你有多少参数 → 我是 PictureImages 旗下的模型 <unk><eos>"
   ],
-  "storage_bytes_total": 2639157324
+  "storage_bytes_total": 3298946655
 }
